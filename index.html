@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meridian Commerce is a performance-driven e-commerce marketing and CRO studio helping DTC and Shopify Plus brands scale predictable revenue."
+    />
+    <meta name="theme-color" content="#FAFAF9" />
+    <title>Meridian Commerce — E-Commerce Growth & CRO Studio</title>
+
+    <!-- Preload actual LCP hero image with responsive srcset -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="/images/hero-commerce-800.webp"
+      imagesrcset="/images/hero-commerce-480.webp 480w, /images/hero-commerce-800.webp 800w"
+      imagesizes="(max-width: 768px) 92vw, 560px"
+      fetchpriority="high"
+    />
+
+    <!-- Non-blocking typography enhancement (minimal weights only) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      />
+    </noscript>
+  </head>
+  <body class="bg-[#FAFAF9] text-[#111113] antialiased selection:bg-[#065F46] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
